@@ -12,9 +12,9 @@ const data= [
   {
     id: 1,
     image: img1,
-    title: 'Refonte application Web ASP.NET core 6 avec BLAZOR',
-    github: 'https://github.com',
-    demo:'https://github.com'
+    title: 'Refonte application Web ASP.NET core 6 avec BLAZOR [PRIVATE]',
+    github: 'https://github.com/yoguill',
+    demo:'https://github.com/yoguill'
   },
   {
     id: 2,
@@ -26,9 +26,9 @@ const data= [
   {
     id: 3,
     image: img3,
-    title: "Developpement d'une application C# ",
+    title: "Développement d'applications en C# ",
     github: 'https://github.com',
-    demo:'https://github.com'
+    demo:'https://github.com/yoguill/CreateWallet'
   },
   {
     id: 4,
@@ -47,9 +47,9 @@ const data= [
   {
     id: 6,
     image: img6,
-    title: 'Création de lot SSIS afin de generer rapport pour le client',
-    github: 'https://github.com',
-    demo:'https://github.com'
+    title: 'Création de lot SSIS afin de generer rapport pour le client [PRIVATE]',
+    github: 'https://github.com/yoguill',
+    demo:'https://github.com/yoguill'
   }
 ]
 

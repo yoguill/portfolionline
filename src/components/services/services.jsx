@@ -5,7 +5,7 @@ import {BiCheck} from 'react-icons/bi'
 const services = () => {
   return (
     <section id='services'>
-      <h5>Ce que je peut offrir</h5>
+      <h5>Ce que je peut vous offrir</h5>
       <h2>Services</h2>
       <div className='container services__container'>
         <article className="service">
@@ -19,7 +19,7 @@ const services = () => {
             </li>
             <li>
             <BiCheck className='service__list-icon' />
-            <p>Developpement d’une application d’habilitation des utilisateurs à partir d’une API.</p>
+            <p>Développement d’une application d’habilitation des utilisateurs à partir d’une API.</p>
             </li>
             <li>
             <BiCheck className='service__list-icon' />
@@ -27,7 +27,7 @@ const services = () => {
             </li>
             <li>
             <BiCheck className='service__list-icon' />
-            <p>Conception de procédures stockées et mise en place d’un datawarehouse (Cube de données SSAS).</p>
+            <p>Conception de procédures stockées et mise en place d’un datawarehouse (Cube SSAS).</p>
             </li>
             <li>
             <BiCheck className='service__list-icon' />
@@ -46,15 +46,15 @@ const services = () => {
           <ul className='service__list'>
             <li>
             <BiCheck className='service__list-icon' />
-            <p>Creation de SmartContract.</p>
+            <p>Création de SmartContract.</p>
             </li>
             <li>
             <BiCheck className='service__list-icon' />
-            <p>Creation d'un site de mint appelant SmartContract.</p>
+            <p>Création d'un site de mint appelant SmartContract.</p>
             </li>
             <li>
             <BiCheck className='service__list-icon' />
-            <p>Creation d'une collection de NFT.</p>
+            <p>Création d'une collection de NFT.</p>
             </li>
             <li>
             <BiCheck className='service__list-icon' />
@@ -62,7 +62,7 @@ const services = () => {
             </li>
             <li>
             <BiCheck className='service__list-icon' />
-            <p>Creation d'un mini jeu de A a Z utilisant la blockchain, gestion d'une communauté.</p>
+            <p>Création d'un mini jeu de A a Z utilisant la blockchain, gestion d'une communauté.</p>
             </li>
           </ul>       
         </article>

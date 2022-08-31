@@ -21,7 +21,7 @@ function about() {
           <div className='about__cards'>
             <article className='about__card'>
               <FaAward className='about__icon'/>
-              <h5>Experience</h5>
+              <h5>Experiences</h5>
               <small>7+ Années Dev C#</small>
             </article>
             <article className='about__card'>
@@ -32,15 +32,16 @@ function about() {
             <article className='about__card'>
               <VscFolderLibrary className='about__icon'/>
               <h5>Projects</h5>
-              <small>20+ Completer</small>
+              <small>20+ Livrés</small>
             </article>
           </div>
+          <br/>
           <p>
-           Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur distinctio autem dolorum dolorem soluta, duc
-           imus delectus harum, perspiciatis temporibus et iste nam quibusdam doloribus! Doloribus nesciunt similique deserunt
-            repudiandae hic, exercitationem cum consequatur quis at corrupti possimus voluptate officiis molestias dolor neque porr
-            o ab nulla commodi sapiente soluta nemo! Consectetur.
+           Salutation ! Je suis Guillaume Roche, 29ans, développeur C# depuis maintenant 7 ans, passioné de Web3 et des nouvelles technologies,
+           je me forme actuellement sur les langages Blockchain tout en approfondissant mes connaissances en C#.
+           <br/>Bonne visite !         
           </p>
+          <br/>
           <a href="#contact" className='btn btn-primary'>Let's Talk</a>
         </div>    
       </div>      
