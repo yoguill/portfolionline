@@ -42,8 +42,27 @@ header{
     width: 1px;
     height: 2rem;
     background: var(--color-primary);
-
+    animation-duration: .8s;
+    animation-name: clignoter;
+    animation-iteration-count: infinite;
+    transition: none;;
 }
+@keyframes clignoter {
+    0%   { opacity:1; }
+    40%   {opacity:0; }
+    100% { opacity:1; }
+  }
+
+.Typewriter{
+    overflow: hidden; /* Ensures the content is not revealed until the animation */
+    color: var(--color-white);
+    white-space: nowrap; /* Keeps the content on a single line */
+    margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+    letter-spacing: .05em; /* Adjust as needed */
+    animation: 
+      typing 3.5s steps(40, end),
+      blink-caret .75s step-end infinite;
+  }
 
 /* ======================== ME ================*/
 .me{
@@ -56,7 +75,6 @@ header{
     border-radius:  12rem 12rem 0 0;
     overflow: hidden;
     padding: 3rem 1.5rem 1.5rem 1.5rem;
-    /* add */
     top: calc(50% - 11rem);
 
 }

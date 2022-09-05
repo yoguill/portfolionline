@@ -3,6 +3,7 @@ import {BsLinkedin} from 'react-icons/bs'
 import {FaGithub} from 'react-icons/fa'
 import {SiLinktree} from 'react-icons/si'
 import {AiFillTwitterSquare} from 'react-icons/ai'
+import Typewriter from 'typewriter-effect';
 
 const HeaderSocials = () => {
   return (

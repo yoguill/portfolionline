@@ -33,7 +33,7 @@ function contact() {
           </article>
         </div>
         {/* END OF CONTACT */}
-        <form action="">
+        <form action="mailto:g.roche.pro@gmail.com">
           <input type="text" name='name' placeholder='Your Full Name' required />
           <input type="email" name='email' placeholder='Your Email' required />
           <textarea name="message" rows="7" placeholder='Your Message'></textarea> 
