@@ -6,15 +6,16 @@ import img3 from '../../assets/portfolio3.jpg'
 import img4 from '../../assets/portfolio4.jpg'
 import img5 from '../../assets/portfolio5.jpg'
 import img6 from '../../assets/portfolio6.jpg'
+import img7 from '../../assets/portfolio7.JPG'
 
 
 const data= [
   {
     id: 1,
-    image: img1,
-    title: 'Refonte application Web ASP.NET core 6 avec BLAZOR [PRIVATE]',
-    github: 'https://github.com/yoguill',
-    demo:'https://github.com/yoguill'
+    image: img7,
+    title: "Création d'une application de lottery avec Next.js (React & Typescript) TailwindCSS et Thirdweb",
+    github: 'https://github.com/yoguill/lottery-dapp',
+    demo:'https://lottery-dapp-bc714.web.app/'
   },
   {
     id: 2,
