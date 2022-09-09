@@ -8,12 +8,14 @@ import Portofolio from './components/portfolio/portfolio'
 import Testimonials from './components/testimonials/testimonials'
 import Contact from './components/contact/contact'
 import Footer from './components/footer/footer'
+import Remote from './components/Remote/Remote'
 
 const App = () => {
   return (
     <>
       <Header />
       <Nav />
+      <Remote />
       <About />
       <Experience />
       <Services />

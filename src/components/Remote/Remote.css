@@ -1,0 +1,62 @@
+.remote__container{
+    display:grid;
+    grid-template-columns: 35% 40%;
+    gap:15%
+}
+
+.remote__spline{
+    width: 100%;
+    aspect-ratio: 1/1;
+    border-radius: 2rem;
+    display: grid;
+    place-items: center;
+}
+
+.remote__content{
+    margin-top: 8rem;
+    text-align: center;
+}
+
+.remote__list-icon{
+    color:var(--color-primary);
+    margin-top: 2px;
+}
+
+.remote__list{
+    left:2rem;
+}
+
+.remote__list li{
+    display: flex;
+    gap:1rem;
+    margin-bottom: 0.8rem;
+    margin-left: 12rem;
+}
+
+/* ============================= media queries (medium devices) ==============================*/
+@media screen and (max-width: 1024px) {
+    .remote__container{
+        grid-template-columns: 1fr;
+        gap:2rem;
+    }
+
+    .remote__content{
+       align-items : center;
+       margin: 2rem 6.5rem 4rem;
+       margin: 1.5rem 0;
+    }
+}
+
+/* ============================= media queries (small devices) ==============================*/
+@media screen and (max-width: 600px) {
+    .remote__container{
+        grid-template-columns: 1fr;
+    }
+    .remote__content{
+       margin: 0 auto 3rem;
+    }
+    .remote__list li{
+        margin: 0 auto 1rem;
+    }
+}
+

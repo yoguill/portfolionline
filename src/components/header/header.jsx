@@ -5,6 +5,7 @@ import ME from '../../assets/me.png'
 import HeaderSocial from './HeaderSocials'
 import Typewriter from 'typewriter-effect';
 
+
 const header = () => {
   return (
     <header>
@@ -12,7 +13,7 @@ const header = () => {
         <h5>Hey ! je suis</h5>
         {/* <h1>Guillaume Roche</h1> */}
         <h1><Typewriter className="Typewriter" options={{strings: ['Guillaume Roche'], autoStart: true, loop: true,}}/></h1>
-        <h5 className="text-light">Développeur FrontEnd/BackEnd</h5>     
+        <h5 className="text-light">Développeur FrontEnd/BackEnd</h5>
         <CTA />      
         <HeaderSocial />     
         

@@ -14,6 +14,7 @@ const footer = () => {
       <a href="#" className='footer__logo'>Guillaume Roche</a>
       <ul className='permalinks'>
         <li><a href="#">Home</a></li>
+        <li><a href="#Remote">Disponibilités</a></li>
         <li><a href="#about">About</a></li>
         <li><a href="#experience">Experience</a></li>
         <li><a href="#services">Services</a></li>
